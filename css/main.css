@@ -2,14 +2,8 @@ body{
   margin:0;
 }
 
-a, a:link, a:visited{
-  color: #0074D9;
-  text-decoration: none;
-}
-
-.nav a:hover, .nav a:focus, .nav a:focus, .nav a:focus{
+.nav a:hover, .nav a:focus, a:visited{
   background-color: #0074D9;
-  color: #fff;
 }
 
 .section-dark {
@@ -38,6 +32,9 @@ a, a:link, a:visited{
   padding:0;
 }
 
+.white{
+  color: white;
+}
 
 @media only screen and (min-width: 25em) {
 
