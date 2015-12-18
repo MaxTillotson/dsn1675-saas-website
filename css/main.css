@@ -2,26 +2,37 @@ body{
   margin:0;
 }
 
-.nav a:hover, .nav a:focus, a:visited{
-  background-color: #0074D9;
-}
 
 .section-dark {
-  background-color: #ccc;
-}
-
-.section-mid {
-  background-color: #eeeeee;
+  background-color: #7A7E40;
 }
 
 .section {
-  background-color:#efefef;
-
+  background-color:#fff;
 }
 
 .intro{
-  background-image: url('http://placehold.it/350x150');
+  background-image: url(../images/feild.jpg);
   background-size: cover;
+  min-height: 200px;
+}
+
+.middle1{
+  background-image: url(../images/bg1.png);
+  background-size: cover;
+  min-height: 200px;
+}
+
+.middle2{
+  background-image: url(../images/bg2.png);
+  background-size: cover;
+  min-height: 200px;
+}
+
+.bottom{
+  background-image: url(../images/wine.jpg);
+  background-size: cover;
+  min-height: 200px;
 }
 
 .soc{
@@ -36,14 +47,83 @@ body{
   color: white;
 }
 
+.whiteb{
+  background-color: white;
+}
+
+ol{
+  text-align: center;
+}
+
+.food{
+  max-width: 300px;
+}
+
+.logo{
+  width:100px;
+  align-items: center;
+}
+
 @media only screen and (min-width: 25em) {
+
+li{
+  display:inline-block;
+}
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1{
+  	text-align: left;
+  }
+
+  .intro{
+    min-height: 400px;
+  }
+
+  .middle1{
+    min-height: 400px;
+  }
+
+  .middle2{
+    min-height: 400px;
+  }
+
+  .bottom{
+
+    min-height: 400px;
+  }
+}
+
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .intro{
+    min-height: 800px;
+  }
+
+  .middle1{
+    min-height: 800px;
+  }
+
+  .middle2{
+    min-height: 800px;
+  }
+
+  .bottom{
+
+    min-height: 800px;
+  }
 }
