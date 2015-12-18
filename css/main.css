@@ -71,6 +71,14 @@ ol{
 .btn2{
   background-color: #7A7E40;
 }
+
+.type1{
+  font-family: 'Pacifico', cursive;
+}
+
+.type2{
+  font-family: 'Oswald', sans-serif;
+}
 @media only screen and (min-width: 25em) {
 
 li{
