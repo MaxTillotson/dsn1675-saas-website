@@ -19,14 +19,14 @@
 			<li><a href="#nav">Skip to navigation</a></li>
 			<li><a href="#footer">Skip to footer</a></li>
 		</ul>
-		<header class="section-dark masthead">
+		<header class="section-dark masthead ">
       <div class="grid grid-middle">
           <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3">
               <a href="index.html"><img class="island-1-2 logo" src="images/logo.png" alt=""></a>
 
           </div>
 					<div class="unit unit-xs-2-3 unit-s-2-3 unit-m-1-3 unit-l-1-3">
-						<h1>Cit-E Eating</h1>
+						<h1 class="text-center">Cit-E Eating</h1>
 					</div>
           <nav role="navigation" id="nav" class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
             <ol class="nav giga list-group list-group--inline">
@@ -41,7 +41,7 @@
     <main role="main" id="main">
 			<div role="banner" class="grid intro text-center">
 					<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-						<h2 class="exa white">Join The Family!</h2>
+						<h2 class="exa white type1">Join The Family!</h2>
 					</div>
 					<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 						<img class="logo" src="images/icon3.png" alt="">
@@ -51,7 +51,7 @@
 			<div class="grid">
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 					<div class="middle1 text-center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-						<h3>Sign Up</h3>
+						<p>Sign Up</p>
 						<form action="//formspree.io/ten.am@hotmailmail.com" method="post">
 						<div>
     					<input name="email" id="email" placeholder="Email" class="input" required>
@@ -59,15 +59,18 @@
 						<div>
     					<input name="password" id="password" placeholder="Password" class="input" required>
 						</div>
-						<h3>Credit Card</h3>
+						<p>Credit Card</p>
 						<div>
-    					<input name="name on card" id="email" placeholder="Name On Card" class="name on card" required>
+    					<input name="name on card" id="nameoncard" placeholder="Name On Card" class="input" required>
 						</div>
 						<div>
-    					<input name="card number" id="card number" placeholder="Card Number" class="card number" required>
+    					<input name="card number" id="cardnumber" placeholder="Card Number" class="input" required>
 						</div>
 						<div>
-							<label class="expiration" for="expiration"><h3>Expiration Date</h3></label>
+    					<input name="card type" id="cardtype" placeholder="Card Type" class="input" required>
+						</div>
+						<div>
+							<label class="expiration" for="expiration">Expiration Date</label>
 							<select id="expiration" class="input select">
 								<option>01</option>
 								<option>02</option>
@@ -101,11 +104,11 @@
 							<button class="btn">Join</button>
 						</div>
 						<input type="hidden" name="_next" value="http://maxtillotson.github.io/dsn1675-saas-website/thankyou.html">
-					</div>
-						</form>
+					</form>
+				</div>
 						<form action="//formspree.io/ten.am@hotmailmail.com" method="post">
 						<div class="middle2 text-center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-							<h3>Sign in</h3>
+							<p>Sign in</p>
 						<div>
 							<input name="email" id="email" placeholder="Email" class="input" required>
 						</div>
@@ -115,9 +118,9 @@
 						<div>
 							<button class="btn">Login</button>
 						</div>
+					</div>
 						<input type="hidden" name="_next" value="http://maxtillotson.github.io/dsn1675-saas-website/thankyou.html">
 						</form>
-					</div>
 				</div>
 			</div>
     </main>
