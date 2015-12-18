@@ -64,6 +64,13 @@ ol{
   align-items: center;
 }
 
+.input{
+
+}
+
+.btn2{
+  background-color: #7A7E40;
+}
 @media only screen and (min-width: 25em) {
 
 li{
