@@ -11,23 +11,21 @@ body{
   background-color:#fff;
 }
 
+.section1 {
+  background-color:#B09B3E;
+}
+
+.section2 {
+  background-color:#C1AD35;
+}
+
 .intro{
   background-image: url(../images/feild.jpg);
   background-size: cover;
   min-height: 200px;
 }
 
-.middle1{
-  background-image: url(../images/bg1.png);
-  background-size: cover;
-  min-height: 200px;
-}
 
-.middle2{
-  background-image: url(../images/bg2.png);
-  background-size: cover;
-  min-height: 200px;
-}
 
 .bottom{
   background-image: url(../images/wine.jpg);
