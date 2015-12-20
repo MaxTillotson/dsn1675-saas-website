@@ -11,14 +11,6 @@ body{
   background-color:#fff;
 }
 
-.section1 {
-  background-color:#B09B3E;
-}
-
-.section2 {
-  background-color:#C1AD35;
-}
-
 .intro{
   background-image: url(../images/feild.jpg);
   background-size: cover;
